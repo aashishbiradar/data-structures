@@ -1,0 +1,9 @@
+Displaying queue : [ ]
+10 enqueued 
+20 enqueued 
+30 enqueued 
+40 enqueued 
+Displaying queue : [ 10 20 30 40 ]
+50 enqueued 
+Queue full! enqueue failed for elem 60
+Displaying queue : [ 10 20 30 40 50 ]
