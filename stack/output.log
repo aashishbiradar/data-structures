@@ -1,0 +1,8 @@
+Pushed 10 into stack
+Pushed 20 into stack
+Pushed 30 into stack
+Displaying stack : [ 10 20 30 ]
+Poped 30
+Displaying stack : [ 10 20 ]
+Top elem is 20
+Displaying stack : [ 10 20 ]
