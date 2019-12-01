@@ -7,3 +7,5 @@ Displaying queue : [ 10 20 30 40 ]
 50 enqueued 
 Queue full! enqueue failed for elem 60
 Displaying queue : [ 10 20 30 40 50 ]
+Dequeued 50
+Displaying queue : [ 10 20 30 40 ]

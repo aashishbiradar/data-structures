@@ -14,14 +14,17 @@ class Queue
             this->front = this->rear = -1;
             this->size = 0;
         }
+
         bool isFull()
         {
             return (this->size == this->capacity);
         }
+
         bool isEmpty()
         {
             return (this->size == 0);
         }
+
         void enqueue(int elem)
         {
             if(this->isFull())
@@ -35,6 +38,22 @@ class Queue
                 cout<<elem<<" enqueued "<<endl;
             }
         }
+
+        int dequeue()
+        {
+            if(this->isEmpty())
+            {
+                cout<<"Queue empty!"<<endl;
+            }
+            else
+            {
+                int elem = this->arr[rear--];
+                --this->size;
+                cout<<"Dequeued "<<elem<<endl;
+                return elem;
+            }
+        }
+
         void display()
         {
             cout<<"Displaying queue : [ ";
@@ -58,6 +77,8 @@ int main()
     q.display();
     q.enqueue(50);
     q.enqueue(60);
+    q.display();
+    q.dequeue();
     q.display();
     return 0;
 }
